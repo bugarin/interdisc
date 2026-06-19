@@ -82,3 +82,12 @@
 .id-systems-grid>div:nth-child(6n+4) .id-system i{color:var(--id-green)}
 .id-systems-grid>div:nth-child(6n+5) .id-system i{color:var(--id-blue)}
 .id-systems-grid>div:nth-child(6n+6) .id-system i{color:var(--id-teal)}
+
+/* Certificación NOM-024 (página DAR) */
+.id-cert-badges{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:24px}
+.id-cert-badge{display:flex;flex-direction:column;border:2px solid var(--id-primary);border-radius:10px;
+  padding:12px 18px;font-weight:800;color:var(--id-primary);line-height:1.2}
+.id-cert-badge small{font-weight:500;color:#5b6470;font-size:12px;margin-top:4px}
+.id-cert-item{display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid #eef0f3}
+.id-cert-item i{color:var(--id-green);font-size:20px;flex-shrink:0}
+.id-cert-item b{color:var(--id-primary);font-weight:700}
