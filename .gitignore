@@ -1,0 +1,9 @@
+# macOS / SO
+.DS_Store
+Thumbs.db
+
+# Vercel (artefactos locales del CLI, si llegas a usarlo)
+.vercel
+
+# Dependencias (este sitio no las usa, pero por si acaso)
+node_modules

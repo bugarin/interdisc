@@ -65,3 +65,20 @@
 .feature__section .feature__01{width:100%;filter:brightness(.5)}
 /* Banner de páginas internas: oscurece la foto para que el título blanco se lea */
 .about__banner .about__banner__01{width:100%;filter:brightness(.6)}
+
+/* Quita el círculo gris detrás de los íconos de los beneficios (artefacto del template) */
+.choose__type .icon{background:transparent !important;width:auto !important;height:auto !important;
+  line-height:normal !important;border-radius:0 !important;margin-right:6px}
+
+/* Cuadrícula de sistemas integrados (página DAR) */
+.id-system{background:#fff;border:1px solid #e8eaee;border-radius:12px;padding:24px 14px;text-align:center;
+  height:100%;transition:.25s;margin-bottom:24px}
+.id-system:hover{box-shadow:0 16px 34px rgba(1,5,12,.10);transform:translateY(-3px);border-color:transparent}
+.id-system i{font-size:30px;line-height:1;display:block;margin-bottom:12px;color:var(--id-primary)}
+.id-system h6{margin:0;font-size:15px;line-height:1.3;font-weight:600}
+.id-systems-grid>div:nth-child(6n+1) .id-system i{color:var(--id-red)}
+.id-systems-grid>div:nth-child(6n+2) .id-system i{color:var(--id-orange)}
+.id-systems-grid>div:nth-child(6n+3) .id-system i{color:var(--id-yellow)}
+.id-systems-grid>div:nth-child(6n+4) .id-system i{color:var(--id-green)}
+.id-systems-grid>div:nth-child(6n+5) .id-system i{color:var(--id-blue)}
+.id-systems-grid>div:nth-child(6n+6) .id-system i{color:var(--id-teal)}
